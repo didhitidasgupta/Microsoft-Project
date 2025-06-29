@@ -54,7 +54,7 @@ Enzyme Activity (U/mL)  -  Measured enzyme activity (target variable)
 
 ---
 
-## Results Snapshot
+## Results
 
 * **R² Score**: *-0.6733064943059406*
 * **Mean Squared Error**: *0.0943849444444445* 
