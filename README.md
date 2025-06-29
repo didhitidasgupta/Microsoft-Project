@@ -4,20 +4,19 @@ This project applies Machine Learning techniques to predict the enzyme activity 
 
 ## Project Structure
 
-predicting-enzyme-activity/
-│
-├── Predicting Enzyme Activity.ipynb  # Jupyter Notebook with code and output
-├── enzyme_activity_model.pkl         # Trained Linear Regression model
-├── your_dataset.csv                  # Experimental data
-└── README.md                         # Project description and usage
+ * Predicting Enzyme Activity.ipynb: Jupyter Notebook with code and output
+
+ * enzyme_activity_model.pkl: Trained Linear Regression model
+
+ * enzyme_activity.csv: Experimental data
+
+ * README.md: Project description and usag
 
 ## Dataset Description
 
 The dataset includes enzyme assay results from 8 bacterial isolates labeled:
 
 1A, 1B, 2C, 3A, 3B, 4A, 4B, 4C
-
-
 
 ### Column        Description
 
@@ -31,13 +30,12 @@ Starch Concentration (g/L)  -  Concentration of starch substrate
 
 Enzyme Activity (U/mL)  -  Measured enzyme activity (target variable)
 
-
 ---
 
 ## Methodology
 
 * **Data Preprocessing**: Label encoding for isolate ID, feature scaling, train-test split
-* **Model**: Simple Linear Regression using `scikit-learn`
+* **Model**: Simple Linear Regression
 * **Evaluation Metrics**:
   * Mean Squared Error (MSE)
   * R² Score
@@ -58,19 +56,10 @@ Enzyme Activity (U/mL)  -  Measured enzyme activity (target variable)
 
 ## Results Snapshot
 
-* **R² Score**: *e.g., 0.89*
-* **MSE**: *e.g., 1.25*
+* **R² Score**: *-0.6733064943059406*
+* **Mean Squared Error**: *0.0943849444444445* 
 
 > These metrics reflect how well the model generalizes to unseen enzyme assay data.
-
----
-
-## Future Enhancements
-
-* Explore **Polynomial Regression** for non-linear patterns
-* Include **interaction terms** (Temperature × pH)
-* Use **cross-validation** for more robust performance evaluation
-* Build a **streamlit app** to let users predict activity with a form
 
 ---
 
