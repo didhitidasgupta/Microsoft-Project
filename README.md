@@ -66,6 +66,14 @@ This will give us a better sense of their combined effect. This visualization he
 
 ---
 
+## Deployment
+
+**Save the trained model**: Use a library like joblib to save the trained LinearRegression model to a file.
+**Load the saved model**: Load the saved model from the file.
+**Prepare new data for prediction**: Create a new DataFrame with the same structure as the training data (including one-hot encoded 'Isolate' columns) but containing the data for which you want to make predictions.
+**Make predictions on new data**: Use the loaded model to make predictions on the prepared new data.
+**Display predictions**: Show the predicted enzyme activity for the new data.
+
 ## References
 
 * Primary data collected from enzyme assay experiments
