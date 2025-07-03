@@ -4,7 +4,7 @@ This project applies Machine Learning techniques to predict the enzyme activity 
 
 ## Project Structure
 
- * Predicting Enzyme Activity.ipynb: Jupyter Notebook with code and output
+ * Predicting Enzyme Activity.ipynb: Using Google Colab
 
  * enzyme_activity_model.pkl: Trained Linear Regression model
 
