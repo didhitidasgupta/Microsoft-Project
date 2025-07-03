@@ -14,9 +14,7 @@ This project applies Machine Learning techniques to predict the enzyme activity 
 
 ## Dataset Description
 
-The dataset includes enzyme assay results from 8 bacterial isolates labeled:
-
-1A, 1B, 2C, 3A, 3B, 4A, 4B, 4C
+The dataset includes enzyme assay results from labeled bacterial isolates.
 
 ### Column        Description
 
