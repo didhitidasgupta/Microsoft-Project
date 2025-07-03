@@ -56,10 +56,15 @@ Enzyme Activity (U/mL)  -  Measured enzyme activity (target variable)
 
 ## Results
 
-* **R² Score**: *-0.6733064943059406*
-* **Mean Squared Error**: *0.0943849444444445* 
+* **R² Score**: *0.7016*
+* **Mean Squared Error**: *0.0245* 
 
 > These metrics reflect how well the model generalizes to unseen enzyme assay data.
+
+---
+
+## 3D surface plot of Enzyme Activity vs Temperature and pH. 
+This will give us a better sense of their combined effect. This visualization helps in understanding the relationship between these three variables in a three-dimensional space.
 
 ---
 
